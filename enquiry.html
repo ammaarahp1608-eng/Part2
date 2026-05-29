@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Organisation Name - Homepage</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Webpage</h1>
+    <nav>
+      <ul>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="enquiry.html">Enquiry</a>
+        <a href="contact.html">Contact</a>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+  <h2>Enquiry Form</h2>
+  <form action="submit.php" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message"></textarea><br><br>
+
+    <button type="submit">Submit</button>
+  </form>
+</main>
+
+
+  <footer>
+    <p>&copy; 2026 Organisation Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
